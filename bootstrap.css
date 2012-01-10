@@ -6,7 +6,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: Sun Dec 25 20:18:31 PST 2011
+ * Date: Tue Jan 10 09:02:34 CST 2012
  */
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
@@ -1310,13 +1310,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   overflow: visible;
 }
 .topbar a {
-  color: #bfbfbf;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #404040;
 }
 .topbar h3 a:hover, .topbar .brand:hover, .topbar ul .active > a {
-  background-color: #333;
+  background-color: #f5f5f5;
   background-color: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  color: #404040;
   text-decoration: none;
 }
 .topbar h3 {
@@ -1327,7 +1326,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   display: block;
   padding: 8px 20px 12px;
   margin-left: -20px;
-  color: #ffffff;
+  color: #404040;
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
@@ -1338,7 +1337,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 .topbar p a:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #bfbfbf;
 }
 .topbar form {
   float: left;
@@ -1384,7 +1383,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .topbar input:hover {
   background-color: #bfbfbf;
   background-color: rgba(255, 255, 255, 0.5);
-  color: #ffffff;
+  color: #404040;
 }
 .topbar input:focus, .topbar input.focused {
   outline: 0;
@@ -1398,20 +1397,20 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
 .topbar-inner, .topbar .fill {
-  background-color: #222;
-  background-color: #222222;
+  background-color: #efefef;
+  background-color: #efefef;
   background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f5f5f5), to(#efefef));
+  background-image: -moz-linear-gradient(top, #f5f5f5, #efefef);
+  background-image: -ms-linear-gradient(top, #f5f5f5, #efefef);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #efefef));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #efefef);
+  background-image: -o-linear-gradient(top, #f5f5f5, #efefef);
+  background-image: linear-gradient(top, #f5f5f5, #efefef);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#efefef', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .topbar div > ul, .nav {
   display: block;
@@ -1432,7 +1431,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   text-decoration: none;
 }
 .topbar div > ul a:hover, .nav a:hover {
-  color: #ffffff;
+  color: #bfbfbf;
   text-decoration: none;
 }
 .topbar div > ul .active > a, .nav .active > a {
@@ -1466,7 +1465,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .nav .menu-dropdown,
 .topbar div > ul .dropdown-menu,
 .nav .dropdown-menu {
-  background-color: #333;
+  background-color: #f5f5f5;
 }
 .topbar div > ul .menu-dropdown a.menu,
 .nav .menu-dropdown a.menu,
@@ -1476,7 +1475,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .nav .menu-dropdown .dropdown-toggle,
 .topbar div > ul .dropdown-menu .dropdown-toggle,
 .nav .dropdown-menu .dropdown-toggle {
-  color: #ffffff;
+  color: #bfbfbf;
 }
 .topbar div > ul .menu-dropdown a.menu.open,
 .nav .menu-dropdown a.menu.open,
@@ -1488,13 +1487,6 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .nav .dropdown-menu .dropdown-toggle.open {
   background: #444;
   background: rgba(255, 255, 255, 0.05);
-}
-.topbar div > ul .menu-dropdown li a,
-.nav .menu-dropdown li a,
-.topbar div > ul .dropdown-menu li a,
-.nav .dropdown-menu li a {
-  color: #999;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 .topbar div > ul .menu-dropdown li a:hover,
 .nav .menu-dropdown li a:hover,
@@ -1516,14 +1508,13 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .nav .menu-dropdown .active a,
 .topbar div > ul .dropdown-menu .active a,
 .nav .dropdown-menu .active a {
-  color: #ffffff;
+  color: #bfbfbf;
 }
 .topbar div > ul .menu-dropdown .divider,
 .nav .menu-dropdown .divider,
 .topbar div > ul .dropdown-menu .divider,
 .nav .dropdown-menu .divider {
   background-color: #222;
-  border-color: #444;
 }
 .topbar ul .menu-dropdown li a, .topbar ul .dropdown-menu li a {
   padding: 4px 15px;
@@ -1594,7 +1585,7 @@ a.menu:after, .dropdown-toggle:after {
   clear: both;
   font-weight: normal;
   line-height: 18px;
-  color: #808080;
+  color: #404040;
   text-shadow: 0 1px 0 #ffffff;
 }
 .topbar .dropdown-menu a:hover,
@@ -1621,7 +1612,7 @@ a.menu:after, .dropdown-toggle:after {
 .dropdown.open .menu,
 .open .dropdown-toggle,
 .dropdown.open .dropdown-toggle {
-  color: #ffffff;
+  color: #bfbfbf;
   background: #ccc;
   background: rgba(0, 0, 0, 0.3);
 }
